@@ -1,0 +1,1 @@
+## In this section we will start learning the very basics of the JavaScript language so things like variables, datatypes, operators if/else statements and more. These lectures are designed for you to learn these fundamentals and to give you an overview of the language before we actually dive deeper in later sections.

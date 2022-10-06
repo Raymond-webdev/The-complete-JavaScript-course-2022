@@ -1,0 +1,1 @@
+## **Before moving on from a section, make sure that you understand exactly what was covered.** Take a brea, review the code we wrote, review your notes, review the projects we built, and maybe even write some code yourself.
