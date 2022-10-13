@@ -1,0 +1,1 @@
+### In this setion we will how to actually learn to code, how to think as a developer, how to debug your code in case you run into problems and also how to setuo a professional development enviroment on your own computer.

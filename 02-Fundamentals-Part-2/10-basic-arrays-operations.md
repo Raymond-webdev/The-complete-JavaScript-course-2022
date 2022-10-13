@@ -37,13 +37,15 @@ console.log(friends); ["Steven", "Peter"]
 5. The indexOf method is a very useful method that tells us in which position a certain element is in the array.
 ```
 const friends = ["Michael", "Steven", "Peter"];
-console.log(friends.indexOf("Steven")); - 1
+console.log(friends.indexOf("Steven")); // 1
 ```
 6. The includes method will simply return "true" if the element is in the array and "false" if it's not. 
+// first console.log statement will return true.
+// second console.log statement will return false.
 ```
 const friends = ["Michael", "Steven", "Peter"];
-console.log(friends.include("Steven")) - true
-console.log(friends.include("Bob")) - false
+console.log(friends.include("Steven")) 
+console.log(friends.include("Bob")) 
 ```
 - This method uses strict equality for this check.
   Let's say if we would push another value to the array, **(friends.push(23);)** then checked for 23 the string **console.log(friends.include("23"))** it will just not work and that's because it is testing with strict equality.
