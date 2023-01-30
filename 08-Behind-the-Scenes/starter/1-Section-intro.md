@@ -1,0 +1,3 @@
+## Section Intro
+
+- In this section we will take a look behind the scenes of JavaScript and learn how the language actually works. So throughout this section we will take the basic basic knowledge of JavaScript that we've got so far and elevated to a completely new level where we will then understand exactly how everything that we learnt before actually works under the hood. This is actually extremely important because this knowledge will really empower us to write better code and to understand other developers code and so in the end it will make us a better, more confident and more successful developer. 
