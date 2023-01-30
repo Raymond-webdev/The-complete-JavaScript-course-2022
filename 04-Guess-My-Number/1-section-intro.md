@@ -1,0 +1,1 @@
+##  In this section we are finally build 3 great projects so we can learn the basics of so called DOM manipulation. We will take it to the next leverl and actually make JavaScript interact with real webpages.
