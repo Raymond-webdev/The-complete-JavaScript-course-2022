@@ -13,7 +13,7 @@ const jonas = {
    passport = 327632764243
 }
 
-const checkIn = funciton(flightNum, passenger) {
+const checkIn = function(flightNum, passenger) {
   flight = "LH999";
   passenger.name = "Mr. " + passenger.name;
 
