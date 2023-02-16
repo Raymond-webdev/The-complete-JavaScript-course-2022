@@ -1,0 +1,3 @@
+## Section intro
+
+Hello, and welcome to our next section, which is all about arrays. So in JavaScript, arrays are probably the most used data structure. So, we use arrays all the time, and therefore JavaScript has countless modern array methods, which we can also imagine as array tools. So in this section, we will learn all about these tools, so how to use them, and even more importantly, when to use them. And we will do that while building our next beautiful project, so that you can immediately apply all these array tools to a real world situation.
