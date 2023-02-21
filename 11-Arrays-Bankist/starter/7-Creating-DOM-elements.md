@@ -1,9 +1,6 @@
-'use strict';
+## Creating DOM elements
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// BANKIST APP
-
+```
 // Data
 const account1 = {
   owner: 'Jonas Schmedtmann',
@@ -91,5 +88,4 @@ const currencies = new Map([
 ]);
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-
-/////////////////////////////////////////////////
+```
