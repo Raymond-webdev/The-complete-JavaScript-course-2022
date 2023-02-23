@@ -1,0 +1,51 @@
+## More ways of creating and filling arrays
+
+- The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.
+```
+const array1 = [1, 2, 3, 4];
+
+// Fill with 0 from position 2 until position 4
+console.log(array1.fill(0, 2, 4));
+// Expected output: Array [1, 2, 0, 0]
+
+// Fill with 5 from position 1
+console.log(array1.fill(5, 1));
+// Expected output: Array [1, 5, 5, 5]
+
+console.log(array1.fill(6));
+// Expected output: Array [6, 6, 6, 6]
+```
+```
+Syntax
+fill(value)
+fill(value, start)
+fill(value, start, end)
+```
+Parameters
+value
+Value to fill the array with. Note all elements in the array will be this exact value: if value is an object, each slot in the array will reference that object.
+
+start Optional
+Zero-based index at which to start filling, converted to an integer.
+
+Negative index counts back from the end of the array — if start < 0, start + array.length is used.
+If start < -array.length or start is omitted, 0 is used.
+If start >= array.length, no index is filled.
+end Optional
+Zero-based index at which to end filling, converted to an integer. fill() fills up to but not including end.
+
+Negative index counts back from the end of the array — if end < 0, end + array.length is used.
+If end < -array.length, 0 is used.
+If end >= array.length or end is omitted, array.length is used, causing all indices until the end to be filled.
+If end is positioned before or at start after normalization, no index is filled.
+Return value
+The modified array, filled with value.
+
+Description
+The fill() method is a mutating method. It does not alter the length of this, but it will change the content of this.
+
+The fill() method fills empty slots in sparse arrays with value as well.
+
+The fill() method is generic. It only expects the this value to have a length property. Although strings are also array-like, this method is not suitable to be applied on them, as strings are immutable.
+
+Note: Using Array.prototype.
