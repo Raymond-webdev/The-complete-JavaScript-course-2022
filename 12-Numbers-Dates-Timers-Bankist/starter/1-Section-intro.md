@@ -1,0 +1,3 @@
+## Section intro
+
+- Now it's time to turn our attention onto two additional ways of representing data, numbers and dates. Now, these might be a bit less important than things like strings and arrays, but you should still know how to use them. And so in this section, we will continue working on the Bankist App, but now we will incorporate numbers and dates and also internationalization and timers, which are another two very important aspects that you should actually know about. 
